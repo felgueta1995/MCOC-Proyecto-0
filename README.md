@@ -5,10 +5,9 @@ Introducción
 ==============
 
 La perdida de significancia es un efecto que se produce al trabajar con números decimales, exigiendo precisión absoluta. Debido a la
-representación interna de los sistemas operativos de un número (básicamente, se busca la división entera que produzca el número pedido)
+representación interna de los sistemas operativos de un número (básicamente, se busca la división entera que produzca lo más cercano al número pedido)
 se pierden digitos de significancia que pueden generar errores inaceptables, especialmente en problemas mal condicionados. El mal condicionamiento 
-de algo es; a grandes rasgos, que la variación en el output de un problema sea considerablemente mayor que el input; por lo que toma gran importancia
-en métodos numéricos.
+de algo es; a grandes rasgos, que la variación en el output de un problema sea considerablemente mayor que una variación en el input; por lo que toma gran importancia en métodos numéricos.
 
 
 Perdida de Significancia en cálculos con matrices mal condicionadas: Matriz de Hilbert
@@ -30,7 +29,7 @@ Se define el error relativo como
 
 	ERROR = (Promedio_Calculado - Resultado_Exacto) / Resultado_Exacto
 
-Abajo se puede notar como para valores de n relativamente pequeños, el error generado por tipos de datos 32 es mayor que los de 64. Lo curioso, es que para valores de n más grandes, ésta relación se invierte
+Abajo se puede notar como para valores de n relativamente pequeños, el error generado por tipos de datos 32 es mayor que los de 64. Lo curioso, es que para valores de n más grandes, ésta relación se invierte;
 y las matrices con datos de 32 generan menor error que los de 64. 
 
 ![Results](loss-of-significance.png)
