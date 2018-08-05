@@ -9,8 +9,7 @@ representación interna de los sistemas operativos de un número (básicamente, 
 se pierden digitos de significancia que pueden generar errores inaceptables, especialmente en problemas mal condicionados. El mal condicionamiento 
 de algo es; a grandes rasgos, que la variación en el output de un problema sea considerablemente mayor que el input; por lo que toma gran importancia
 en métodos numéricos.
-
-Este ejemplo
+Perdida de Significancia en cálculos con matrices mal condicionadas: Matriz de Hilbert
 ==============
 
 Los elementos de la matriz de Hilbert se definen cómo:
