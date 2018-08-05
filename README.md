@@ -13,7 +13,7 @@ en métodos numéricos.
 Este ejemplo
 ==============
 
-Los elementos de la matriz de Hilbert se define cómo:
+Los elementos de la matriz de Hilbert se definen cómo:
 
 
  ![Matriz de Hilbert](http://wikimedia.org/api/rest_v1/media/math/render/svg/9d2af6db8176f143d4f6fc1cfe932038f76a6af1)
