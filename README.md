@@ -19,7 +19,7 @@ Los elementos de la matriz de Hilbert se definen cómo:
  ![Matriz de Hilbert](http://wikimedia.org/api/rest_v1/media/math/render/svg/9d2af6db8176f143d4f6fc1cfe932038f76a6af1)
  
 
-donde los indices i,j van desde 0 hasta n. Esta matriz es específicamente mal condicionada para valores de n suficientemente grandes,
+donde los indices i,j van desde 1 hasta n. Esta matriz es específicamente mal condicionada para valores de n suficientemente grandes,
 por lo que estudiaremos el error que posee al crearla, invertirla y multiplicarla por si misma, obteniendo así una supuesta matriz identidad, para las cuales compararemos el mayor error
 con respecto a la diagonal (términos no nulos). Esto se hará tanto con tipo de datos sp.float32 como sp.float64. Para calcular el error, se tomará el error relativo máximo entre mismas posiciones de la diagonal.
 
